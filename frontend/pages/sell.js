@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
+import Link from 'next/link';
+import CreateItem from '../components/CreateItem';
 
-class sell extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        );
-    }
-}
+const Sell = props => (
+  <div>
+    <CreateItem/>
+  </div>
+);
 
-export default sell;
+export default Sell;
